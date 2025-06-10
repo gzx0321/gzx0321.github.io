@@ -9,5 +9,5 @@ redirect_from:
 
 I am a Ph.D. Candidate in Economics at Boston University, with research interests in macroeconomic, monetary economics and financial economics. My current research focuses on firm dynamics with aggregate changes. 
 
-You can find my CV here [Zixing's Curriculum Vitae](.../assets/resume academia.pdf)
+  You can find my CV here [Zixing's CV](.../assets/Resume Academia.pdf)
 
