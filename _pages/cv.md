@@ -19,17 +19,17 @@ Work experience
 ======
 * Fall 2021 to Spring 2025: Research Assistant
   * Boston University
-#  * Duties includes: Updates and improvements to template
-#  * Supervisor: The Users
+  * Duties includes: Updates and improvements to template
+  * Supervisor: The Users
   
 Skills
 ======
 * MATLAB, Stata, R, Python, Microsoft Office, Julia, Mathematica, Bloomberg
 * CFA Level 1 Passed
-#  * Sub-skill 2.1
-#  * Sub-skill 2.2
-#  * Sub-skill 2.3
-#* Skill 3
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
 Research
 ======
