@@ -19,17 +19,13 @@ Work experience
 ======
 * Fall 2021 to Spring 2025: Research Assistant
   * Boston University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
   
 Skills
 ======
-* MATLAB, Stata, R, Python, Microsoft Office, Julia, Mathematica, Bloomberg
+* Causal Inference, Dynamic Programming, Deep Learning
+* MATLAB, Stata, R, Python, Pytorch, Microsoft Office, Julia, Mathematica, Bloomberg
 * CFA Level 1 Passed
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+
 
 Research
 ======
@@ -42,10 +38,7 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
 
 Awards
 ======
