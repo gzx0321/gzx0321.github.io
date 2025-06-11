@@ -1,11 +1,11 @@
 ---
-title: "Teaching experience 1"
+title: "EC 508"
 collection: teaching
-type: "Undergraduate course"
+type: "Master's course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Boston University, Department of Economics"
+date: 2021-01-01
+location: "Boston, MA"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
