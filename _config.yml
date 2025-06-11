@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zixing Guo / "
+title                    : "Zixing Guo"
 title_separator          : "-"
 name                     : &name "Zixing Guo"
 description              : &description "Ph.D. Candidate in Economics at Boston University"
