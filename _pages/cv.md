@@ -17,8 +17,13 @@ Education
 
 Work experience
 ======
-* Fall 2021 to Spring 2025: Research Assistant
-  * Boston University
+* Fall 2021 to Spring 2025: Research Assistant & Teaching Assistant
+  * Boston University, Department of Economics
+  * Supervisor: Robert King
+* Spring 2020: Project Assistant
+  * Haier Model Research Institute
+* Spring 2018: Project Assistant
+  * China Alliance of Social Value Investment
   
 Skills
 ======
