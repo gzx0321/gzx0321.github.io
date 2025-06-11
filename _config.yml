@@ -83,7 +83,9 @@ publication_category:
   jmp:
     title: 'Job Market Paper'
   manuscripts:
-    title: 'Working Paper'    
+    title: 'Working Paper'   
+  workinprogress:
+    title: 'Work in Progress'
   conferences:
     title: 'Conference Papers'
 
