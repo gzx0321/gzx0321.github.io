@@ -2,7 +2,7 @@
 title: "Labor Share over Business Cycle"
 collection: publications
 category: manuscript
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/laborshare
 excerpt: 'This paper studies firm level labor share dynamics over business cycle and finds that over recessions, labor share drops down more but does not rebound enough to the pre-recession level. Overall labor share declines after each recession, which is a main drive for the long run decline of aggregate labor share.'
 #date: 2024-02-17
 #venue: 'GitHub Journal of Bugs'
