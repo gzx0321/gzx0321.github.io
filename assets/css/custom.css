@@ -7,3 +7,8 @@
 .pub-meta {
   display: none !important;
 }
+
+/* 隐藏 Research/Publications 列表页里，每个 archive__item 的第一个 <p> （即 日期行） */
+.archive__item > p:first-of-type {
+  display: none !important;
+}
