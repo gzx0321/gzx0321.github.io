@@ -1,4 +1,4 @@
-/* 隐藏 Publications/Research 页面中 header 上的 Published 日期 */
-.post-meta time {
-  display: none;
+/* 只在 publications/research 布局里隐藏 */
+.layout-publication .post-meta {
+  display: none !important;
 }
