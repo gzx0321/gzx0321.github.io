@@ -4,7 +4,7 @@ collection: teaching
 type: "Master's course"
 permalink: /teaching/2014-spring-teaching-1
 venue: "Boston University, Department of Economics"
-date: 2021-01-01
+date: 2021-09-01
 location: "Boston, MA"
 ---
 
