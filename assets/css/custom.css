@@ -1,4 +1,9 @@
-/* 只在 publications/research 布局里隐藏 */
-.layout-publication .post-meta {
+/* —— 主页和单页 —— */
+.post-meta {
+  display: none !important;
+}
+
+/* —— Publications/Research 列表页 —— */
+.pub-meta {
   display: none !important;
 }
