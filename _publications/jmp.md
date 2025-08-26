@@ -1,9 +1,9 @@
 ---
-title: "Sticky Nominal Debt Contracts"
+title: "The Macro Impacts of Debt-Inflation Channel"
 collection: publications
 category: jmp
 permalink: /publication/jmp
-excerpt: "Price and wage rigidities play an important role in macroeconomics, especially for New Keynesian framework to analyze policies. The nominal contract rigidity, which is the most common perceived in real world, yet is by far understudied by the literature. In this paper, we study the impact on macroeconomic aggregates from inflation fluctuations through the rigid contracts. Empirically, we demonstrate a positive correlation between firms' investment behavior and inflation, noting that firms with significant outstanding nominal debts and operational expenses are particularly sensitive to inflationary changes. This finding remains consistent across various specifications and designs. To fully investigate this sticky contracts channel, we develop a heterogeneous firm model with financial frictions, migrating the Fisherian intuition from consumption models that inflation could be a wealth tax. Intuitively, inflation shock erodes firms' nominal indebted position, prompting certain constrained firms to re-optimize their investment and production decisions intertemporally. We expand this analysis into a HANK framework and apply sequence space methods to solve it dynamically. We show that the sticky contract channel alone can benefit the economy with inflation hikes and monetary authorities could have incentives to be strategically dovish."
+excerpt: "This paper quantitatively evaluates the macro impact of the debt-inflation channel of investment, whereby unexpected inflation erodes the real value of nominal debt and thus stimulates firm-level investment. Using Compustat data, I document pronounced heterogeneity: following unexpected inflation, more indebted firms increase investment relative to less-indebted peers; this pattern is robust across alternative measures of indebtedness and specifications. To quantify the macro effect of this channel, I develop a general equilibrium model with heterogeneous firms, financial frictions and nominal debt contracts. I show that a 1% unexpected inflation raises investment by 0.8%."
 #venue: 'Journal 1'
 #slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 #paperurl: 'http://academicpages.github.io/files/paper1.pdf'
