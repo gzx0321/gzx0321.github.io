@@ -18,6 +18,10 @@ classes: cv
 * The Macro Impact of Debt-Inflation Channel on Investment (Job Market Paper)
 * Labor Share over Business Cycle
 
+## Presentation
+* BU Macro Seminar, Fall 2022- Fall 2025
+* BU-BC Green Line Macro Meeting, Fall 2025
+
 ## Work experience
 * Research & Teaching Assistant, Boston University, Fall 2021 - Spring 2025   
   * Supervisor: Professor Robert King
@@ -27,7 +31,7 @@ classes: cv
 ## Skills
 * Causal Inference, Dynamic Programming, Deep Learning  
 * MATLAB, Stata, R, Python, Pytorch, Microsoft Office, Julia, Mathematica, Bloomberg  
-* CFA Level 1 Passed
+* CFA Level 1
 
 ## Teaching
 * Econometrics, Topics in Macro and Money, Financial Intermediation
