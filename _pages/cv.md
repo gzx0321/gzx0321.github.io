@@ -10,39 +10,31 @@ classes: cv
 
 
 ## Education
-* Ph.D in Economics, Boston University, 2026 (expected)  
-* M.A. in Economic Policy, Boston University, 2020  
-* B.B.A. in Economic Science, The Chinese University of Hong Kong, Shenzhen, 2018  
+* Ph.D in Economics, Boston University, May 2026 (expected)  
+* M.A. in Economic Policy, Boston University, Jan 2020  
+* B.B.A. in Economic Science, The Chinese University of Hong Kong, Shenzhen, May 2018
+
+## Research
+* The Macro Impact of Debt-Inflation Channel on Investment (Job Market Paper)
+* Labor Share over Business Cycle
 
 ## Work experience
-* Fall 2021 to Spring 2025: Research Assistant & Teaching Assistant  
-  * Boston University, Department of Economics  
-  * Supervisor: Robert King
-* Spring 2020: Project Assistant  
+* Research & Teaching Assistant, Boston University, Fall 2021 - Spring 2025   
+  * Supervisor: Professor Robert King
+* Project Assistant, Haier Model Research Institue, Spring 2020 
   * Haier Model Research Institute
-* Spring 2018: Project Assistant  
-  * China Alliance of Social Value Investment
+* Project Assistant, China Alliance of Social Value Investment, Spring 2018
 
 ## Skills
 * Causal Inference, Dynamic Programming, Deep Learning  
 * MATLAB, Stata, R, Python, Pytorch, Microsoft Office, Julia, Mathematica, Bloomberg  
 * CFA Level 1 Passed
 
-## Research
-<ul>
-{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
-
 ## Teaching
-<ul>
-{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}
-</ul>
+* Econometrics, Topics in Macro and Money, Financial Intermediation
 
 ## Awards
 * Dean's Fellowship  
-* CAS Commencement Prize  
-* Dean's List (2015, 2016)
+* CAS Commencement Prize
+* GRS Special Summer Stipend
+* Dean's List 
