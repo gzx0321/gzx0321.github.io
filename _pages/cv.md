@@ -12,7 +12,7 @@ classes: cv
 ## Education
 * Ph.D in Economics, Boston University, May 2026 (expected)  
 * M.A. in Economic Policy, Boston University, Jan 2020  
-* B.B.A. in Economic Science, The Chinese University of Hong Kong, Shenzhen, May 2018
+* B.B.A. in Economic Science (First Class Honor), The Chinese University of Hong Kong, Shenzhen, May 2018
 
 ## Research
 * The Macro Impact of Debt-Inflation Channel on Investment (Job Market Paper)
@@ -22,7 +22,6 @@ classes: cv
 * Research & Teaching Assistant, Boston University, Fall 2021 - Spring 2025   
   * Supervisor: Professor Robert King
 * Project Assistant, Haier Model Research Institue, Spring 2020 
-  * Haier Model Research Institute
 * Project Assistant, China Alliance of Social Value Investment, Spring 2018
 
 ## Skills
