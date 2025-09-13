@@ -1,0 +1,21 @@
+---
+---
+
+/* 只在 CV 页生效（见下一步给 body 加 classes: cv） */
+body.cv a{
+  pointer-events: none;       /* 不可点击 */
+  color: inherit !important;  /* 颜色跟正文 */
+  text-decoration: none !important;
+}
+
+/* 白名单 1：允许点“顶部的 CV 下载”按钮 */
+body.cv a.keep-link{
+  pointer-events: auto;
+  text-decoration: underline;
+}
+
+/* 白名单 2：允许点 JMP（href 中含 “/files/” 且含 “JMP” 的链接） */
+body.cv a[href*="/files/"][href*="JMP"]{
+  pointer-events: auto;
+  text-decoration: underline;
+}
