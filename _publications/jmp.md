@@ -5,8 +5,8 @@ category: jmp
 permalink: /publication/jmp
 excerpt: "This paper quantitatively evaluates the macro impact of the debt-inflation (Fisher) channel of investment,  whereby unexpected inflation erodes the real value of nominal debt and thus stimulates firm-level investment. Consistent with theory, I document that more indebted firms increase investment more relative to others following unexpected increase in inflation. To quantify the macro effect of this channel, I develop a general equilibrium model with heterogeneous firms, financial frictions and nominal debt contracts.  I show that a 1% unexpected inflation raises aggregate investment by 0.8%. By applying the observed post-COVID inflation surprises, this firm-side Fisher channel is quantitatively important enough to explain about 50% investment surge. This finding highlights a significant transmission mechanism for investment, in contrast to previous studies that found a more modest role for the Fisher channel on household consumption."
 venue: 'Job Market Paper'
-#slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: '/files/jmp.pdf'
+slidesurl: 'files/JMP_Slides_Zixing.pdf'
+#paperurl: '/files/jmp.pdf'
 #bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 ---
 
