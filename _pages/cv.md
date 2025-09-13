@@ -10,7 +10,7 @@ classes: cv
 
 {% include base_path %}
 
-[⬇️ Download my CV (PDF)]({{ '/assets/resume academia.pdf' | relative_url }}){: .keep-link }
+[⬇️ Download my CV (PDF)]({{ '/assets/Resume Academia.pdf' | relative_url }}){: .keep-link }
 
 ## Education
 * Ph.D in Economics, Boston University, 2026 (expected)  
