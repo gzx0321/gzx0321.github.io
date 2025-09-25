@@ -8,7 +8,6 @@
 
 {% comment %}
   优先使用 page.seo_title（在页面 front-matter 中设置）
-  否则回退到 page.title - site.title 的组合
 {% endcomment %}
 {% if page.seo_title %}
   {% assign seo_title = page.seo_title %}
