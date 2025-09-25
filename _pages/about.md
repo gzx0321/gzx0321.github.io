@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "About Me"
+seo_title: "Zixing Guo — PhD Candidate in Economics, Boston University"
 author_profile: true
 redirect_from: 
   - /about/
