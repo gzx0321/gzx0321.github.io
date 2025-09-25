@@ -11,5 +11,5 @@ I am a Ph.D. Candidate in Economics at Boston University, with research interest
 
 I will be on the job market during AY 2025-2026.
 
-You can find my CV here [Zixing's CV](../assets/Resume Academia.pdf)
+You can find my CV here [Zixing's CV](../assets/Zixing BU CV.doc)
 
