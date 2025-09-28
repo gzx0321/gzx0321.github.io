@@ -1,5 +1,5 @@
 ---
-title: "Labor Share over Business Cycle"
+title: "Labor Share over Recessions"
 collection: publications
 category: workinprogress
 permalink: /publication/laborshare
