@@ -16,7 +16,7 @@ classes: cv
 
 ## Research
 * The Macro Impact of Debt-Inflation Channel on Investment (Job Market Paper)
-* Labor Share over Business Cycle
+* Labor Share over Recessions
 
 ## Presentation
 * BU Macro Seminar, Fall 2022- Fall 2025
