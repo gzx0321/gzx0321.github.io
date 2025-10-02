@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <!-- Embedded PDF -->
-<iframe src="{{ '/assets/Zixing BU CV.pdf' | relative_url }}" width="75%" height="900px" style="border: none;">
+<iframe src="{{ '/assets/Zixing BU CV.pdf' | relative_url }}" width="100%" height="900px" style="border: none;">
   <p>If the PDF cannot be embedded, please use this link to download: <a href="{{ '/assets/Zixing BU CV.pdf' | relative_url }}">Download my CV (PDF)</a></p>
 </iframe>
 
