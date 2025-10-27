@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. Candidate in Economics at Boston University, with research interests in macroeconomics, monetary and financial economics. My current research focuses on firm dynamics. 
+I am a Ph.D. Candidate in Economics at Boston University, with research interests in macroeconomics, monetary and financial economics. My current research focuses on firm dynamics. My Job Marekt Paper is [The Macro Impact of the Debt-Inflation Channel on Investment](../files/The_Macro_Impact_of_the_Debt_Inflation_Channel_on_Investment (1).pdf).
 
 I will be on the job market during AY 2025-2026.
 
