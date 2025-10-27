@@ -27,6 +27,15 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
+       {% comment %}
+        优先逻辑：如果提供了 paperurl，就把标题链接到 paper（新标签打开）。
+        否则保持原有分类/链接行为（teaching, workinprogress, link, permalink 等）。
+      {% endcomment %}
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ title }}</a>
+        {% if post.link %}
+          <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% endif %}
       {% if post.collection == 'teaching' %}
         {{ title }}
       {% elsif post.category == 'workinprogress' %}
