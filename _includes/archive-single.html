@@ -27,10 +27,11 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% comment %}
-        优先逻辑：如果提供了 paperurl，就把标题链接到 paper（新标签打开）。
-        否则保持原有分类/链接行为（teaching, workinprogress, link, permalink 等）。
-      {% endcomment %}
+      {%- comment -%}
+        如果提供了 paperurl，则把标题链接到 paper（新标签打开）；
+        同时保留可能存在的 permalink 图标（指向站内页面）。
+      {%- endcomment -%}
+
       {% if post.paperurl %}
         <a href="{{ post.paperurl }}" target="_blank" rel="noopener noreferrer">{{ title }}</a>
         {% if post.link %}
@@ -66,33 +67,36 @@
     {% elsif post.excerpt and site.read_more == 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
-    
-    {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.paperurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
-    {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.citation and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
-    {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.paperurl %}
-      <p><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.bibtexurl %}
-      <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+
+    {%- comment -%}
+      构建下载链接：如果标题已经链接到 paper（post.paperurl 存在），
+      则不在链接列表里重复 "Download Paper"；仍显示 Slides 和 Bibtex（若存在）。
+      如果标题没有链接到 paper，则显示 Paper/Slides/Bibtex 中存在的所有链接。
+    {%- endcomment -%}
+
+    {% capture links %}{% endcapture %}
+
+    {%- comment -%} 仅当标题未指向 paper 时，才在列表中显示 Paper 链接 {%- endcomment -%}
+    {% unless post.paperurl %}
+      {% if post.paperurl %}
+        {% capture links %}{{ links }}<a href="{{ post.paperurl }}">Download Paper</a>{% endcapture %}
+      {% endif %}
+    {% endunless %}
+
+    {% if post.slidesurl %}
+      {% capture links %}{{ links }}{% if links != "" %} | {% endif %}<a href="{{ post.slidesurl }}">Download Slides</a>{% endcapture %}
+    {% endif %}
+
+    {% if post.bibtexurl %}
+      {% capture links %}{{ links }}{% if links != "" %} | {% endif %}<a href="{{ post.bibtexurl }}">Download Bibtex</a>{% endcapture %}
+    {% endif %}
+
+    {% if links != "" %}
+      {% if post.citation %}
+        <p>Recommended citation: {{ post.citation }}<br />{{ links }}</p>
+      {% else %}
+        <p>{{ links }}</p>
+      {% endif %}
     {% endif %}
 
   </article>
