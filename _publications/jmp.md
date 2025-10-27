@@ -1,5 +1,5 @@
 ---
-title: "The Macro Impacts of the Debt-Inflation Channel on Investment"
+title: "The Macro Impact of the Debt-Inflation Channel on Investment"
 collection: publications
 category: jmp
 permalink: /publication/jmp
