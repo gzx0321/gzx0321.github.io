@@ -12,5 +12,5 @@ I am a Ph.D. Candidate in Economics at Boston University, with research interest
 
 I will be on the job market during AY 2025-2026 and my Job Marekt Paper is [The Macro Impact of the Debt-Inflation Channel on Investment](../files/The_Macro_Impact_of_the_Debt_Inflation_Channel_on_Investment (1).pdf).
 
-You can find my CV here [Zixing's CV](../assets/Zixing BU CV.pdf)
+You can find my CV here [Zixing's CV](../assets/Zixing BU CV all.pdf)
 
