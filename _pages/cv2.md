@@ -11,4 +11,4 @@ author_profile: true
 </iframe>
 
 <!-- Explicit download link as fallback -->
-[Download my CV (PDF)]({{ '/assets/Zixing BU CV.pdf' | relative_url }})
+[Download my CV (PDF)]({{ '/assets/Zixing BU CV all.pdf' | relative_url }})
