@@ -14,5 +14,5 @@ I was on the job market during AY 2025-2026 and my Job Marekt Paper is [The Macr
 
 You can find my CV here [Zixing's CV](../assets/Zixing BU CV all.pdf)
 
-I will be joining the School of Economics at Renmin University of China as a Lecturer in Fall 2026.
+I will be joining the School of Economics at Renmin University of China as a Lecturer/Assistant Professor in Fall 2026.
 
