@@ -4,14 +4,25 @@ layout: compress
 
 {% include base_path %}
 
+{% assign academic_context = '' %}
+{% if page.url == '/' %}
+  {% assign academic_context = 'home' %}
+{% elsif page.url == '/publications/' or page.collection == 'publications' %}
+  {% assign academic_context = 'research' %}
+{% elsif page.url == '/teaching/' or page.collection == 'teaching' %}
+  {% assign academic_context = 'teaching' %}
+{% elsif page.url == '/cv/' %}
+  {% assign academic_context = 'cv' %}
+{% endif %}
+
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js{% if academic_context != '' %} academic-root{% endif %}"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
     {% include head.html %}
     {% include head/custom.html %}
   </head>
 
-  <body>
+  <body{% if academic_context != '' %} class="academic-site academic-{{ academic_context }}"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}
