@@ -1,14 +1,12 @@
 ---
-layout: page
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
 ---
 
-<!-- Embedded PDF -->
-<iframe src="{{ '/assets/Zixing BU CV all.pdf' | relative_url }}" width="80%" height="900px" style="border: none;">
-  <p>If the PDF cannot be embedded, please use this link to download: <a href="{{ '/assets/Zixing BU CV.pdf' | relative_url }}">Download my CV (PDF)</a></p>
-</iframe>
+<p class="cv-download"><a href="{{ '/assets/Zixing BU CV all.pdf' | relative_url }}">Download my CV (PDF)</a></p>
 
-<!-- Explicit download link as fallback -->
-[Download my CV (PDF)]({{ '/assets/Zixing BU CV all.pdf' | relative_url }})
+<iframe class="cv-preview" title="Zixing Guo's curriculum vitae" src="{{ '/assets/Zixing BU CV all.pdf' | relative_url }}" width="100%" height="900">
+  <p>If the PDF cannot be embedded, please use this link to download: <a href="{{ '/assets/Zixing BU CV all.pdf' | relative_url }}">Download my CV (PDF)</a></p>
+</iframe>
